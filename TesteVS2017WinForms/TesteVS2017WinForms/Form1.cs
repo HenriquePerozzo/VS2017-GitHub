@@ -16,5 +16,10 @@ namespace TesteVS2017WinForms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(DateTime.Now.ToShortTimeString());
+        }
     }
 }
